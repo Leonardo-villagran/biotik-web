@@ -1,6 +1,6 @@
 # BiotiK Web App
 
-![BiotiK Logo](./images/logo.png)
+![BiotiK Logo](https://github.com/Leonardo-villagran/biotik-web/blob/main/public/images/logo.png?raw=true)
 
 La aplicación web BiotiK es una plataforma de análisis de datos que ofrece soluciones avanzadas para el procesamiento y análisis de datos biológicos. Este README proporciona información sobre la estructura de la aplicación y cómo ejecutarla localmente.
 
