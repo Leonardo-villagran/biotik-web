@@ -15,13 +15,11 @@ La aplicación web BiotiK es una plataforma de análisis de datos que ofrece sol
 
 ## Capturas de Pantalla
 
-![Pantalla de Inicio](./images/screenshot1.png)
+![Pantalla de Inicio](https://github.com/Leonardo-villagran/biotik-web/blob/main/public/images/screenshot1.png?raw=true)
 
-*Captura de pantalla de la página de inicio de la aplicación.*
 
-![Proceso de Trabajo](./images/screenshot2.png)
+![Proceso de Trabajo](https://github.com/Leonardo-villagran/biotik-web/blob/main/public/images/screenshot2.png?raw=true)
 
-*Captura de pantalla que muestra el proceso de trabajo de la aplicación.*
 
 ## Instrucciones de Uso
 
@@ -31,3 +29,64 @@ Para ejecutar la aplicación de manera local, sigue estos pasos:
 
    ```shell
    git clone https://github.com/tu-usuario/biotik-web-app.git
+   ```
+
+2. Navega al directorio del proyecto:
+
+   ```shell
+   cd biotik-web-app
+   ```
+
+3. Instala las dependencias utilizando npm:
+
+   ```shell
+   npm install
+   ```
+
+4. Inicia la aplicación:
+
+   ```shell
+   npm start
+   ```
+
+5. Abre tu navegador web y visita [http://localhost:3000](http://localhost:3000) para ver la aplicación en funcionamiento.
+
+## Estructura del Proyecto
+
+El proyecto se estructura de la siguiente manera:
+
+```
+biotik-web-app/
+  ├── public/
+  │   ├── images/
+  │   │   ├── logo.png
+  │   │   ├── screenshot1.png
+  │   │   ├── screenshot2.png
+  │   │   └── ...
+  │   ├── index.html
+  │   └── ...
+  ├── src/
+  │   ├── views/
+  │   │   ├── AboutBiotik.js
+  │   │   ├── HowItWorks.js
+  │   │   ├── Advantages.js
+  │   │   ├── DataSecurity.js
+  │   │   ├── DataProcessing.js
+  │   │   ├── WhyChooseBiotik.js
+  │   │   └── ...
+  │   ├── App.css
+  │   ├── App.js
+  │   ├── Header.js
+  │   ├── Menu.js
+  │   └── ...
+  ├── package.json
+  ├── README.md
+  └── ...
+```
+
+## Tecnologías Utilizadas
+
+La aplicación utiliza las siguientes tecnologías y herramientas:
+
+- [React](https://reactjs.org/): Una biblioteca de JavaScript para construir interfaces de usuario.
+- [Bootstrap](https://getbootstrap.com/): Un marco de diseño CSS para la creación de páginas web receptivas y modernas.
