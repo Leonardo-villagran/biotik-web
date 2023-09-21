@@ -1,23 +1,20 @@
-# Usa una imagen base de Node.js
-FROM node:18.18
+# Dockerfile para el frontend
+FROM node:18.18.0
+# Crear y establecer el directorio de trabajo
+WORKDIR /app
 
-# Establece el directorio de trabajo dentro del contenedor
-WORKDIR /usr/src/app
-
-# Copia los archivos de configuración de la aplicación (package.json y package-lock.json)
+# Copiar los archivos necesarios y el package.json
 COPY package*.json ./
 
-# Instala las dependencias
+# Instalar las dependencias
 RUN npm install
 
-# Copia el resto de los archivos de la aplicación
+# Copiar el resto de los archivos del frontend
 COPY . .
 
-# Realiza el build de la aplicación
 RUN npm run build
 
-# Exponer el puerto en el que se ejecutará la aplicación (cambia 4173 al puerto por defecto)
-EXPOSE 4173
+EXPOSE 3000
 
-# Comando para iniciar la aplicación
-CMD [ "npm", "start" ]
+# Servir los archivos estáticos del build con el servidor web incorporado de Node.js
+CMD ["npx", "serve", "-s", "dist"]

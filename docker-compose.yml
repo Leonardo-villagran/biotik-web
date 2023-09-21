@@ -4,5 +4,5 @@ services:
   biotik-web:
     build: .
     ports:
-      - "6000:4173"
+      - "3003:3000"
     
