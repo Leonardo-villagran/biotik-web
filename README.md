@@ -10,8 +10,6 @@ La aplicación web BiotiK es una plataforma de análisis de datos que ofrece sol
 - [Instrucciones de Uso](#instrucciones-de-uso)
 - [Estructura del Proyecto](#estructura-del-proyecto)
 - [Tecnologías Utilizadas](#tecnologías-utilizadas)
-- [Colaboración](#colaboración)
-- [Licencia](#licencia)
 
 ## Capturas de Pantalla
 
