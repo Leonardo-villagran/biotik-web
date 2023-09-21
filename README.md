@@ -1,9 +1,33 @@
-# React + Vite
+# BiotiK Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![BiotiK Logo](./images/logo.png)
 
-Currently, two official plugins are available:
+La aplicación web BiotiK es una plataforma de análisis de datos que ofrece soluciones avanzadas para el procesamiento y análisis de datos biológicos. Este README proporciona información sobre la estructura de la aplicación y cómo ejecutarla localmente.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# biotik-web
+## Contenido
+
+- [Capturas de Pantalla](#capturas-de-pantalla)
+- [Instrucciones de Uso](#instrucciones-de-uso)
+- [Estructura del Proyecto](#estructura-del-proyecto)
+- [Tecnologías Utilizadas](#tecnologías-utilizadas)
+- [Colaboración](#colaboración)
+- [Licencia](#licencia)
+
+## Capturas de Pantalla
+
+![Pantalla de Inicio](./images/screenshot1.png)
+
+*Captura de pantalla de la página de inicio de la aplicación.*
+
+![Proceso de Trabajo](./images/screenshot2.png)
+
+*Captura de pantalla que muestra el proceso de trabajo de la aplicación.*
+
+## Instrucciones de Uso
+
+Para ejecutar la aplicación de manera local, sigue estos pasos:
+
+1. Clona este repositorio en tu máquina local:
+
+   ```shell
+   git clone https://github.com/tu-usuario/biotik-web-app.git

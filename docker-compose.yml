@@ -2,6 +2,7 @@ version: '3.9'
 
 services:
   biotik-web:
+    restart: always
     build: .
     ports:
       - "3003:3000"
