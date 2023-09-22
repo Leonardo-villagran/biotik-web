@@ -4,13 +4,13 @@ FROM node:latest
 WORKDIR /app
 
 # Instalar la última versión de npm globalmente
-RUN npm install -g npm@latest
+#RUN npm install -g npm@latest
 
 # Instalar el servidor web de Node.js
-RUN npm rebuild esbuild
+#RUN npm rebuild esbuild
 
 # Copiar los archivos necesarios y el package.json
-COPY package*.json ./
+COPY package.json ./
 
 # Instalar las dependencias
 RUN npm install
