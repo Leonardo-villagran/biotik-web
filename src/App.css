@@ -28,6 +28,7 @@ a {
   text-decoration: none; /* Eliminar el subrayado */
   cursor: pointer; /* Cambiar el cursor a un puntero */
   background-color: transparent; /* Fondo transparente por defecto */
+
 }
 
 
@@ -40,7 +41,8 @@ a {
 }
 
 .logo-left {
-  width: 20%;
+  width: 40%;
+  margin: 0 auto;
 }
 
 .logo-left img {
@@ -133,5 +135,48 @@ a {
 
 .scroll-to-top:hover {
   background-color: #227d49;
+}
+
+.custom-button {
+
+  width: 120px; /* Ancho fijo deseado en píxeles */
+  padding: 5px 0; /* Espaciado interno del botón */
+  background-color: black; /* Color de fondo negro */
+  color: white; /* Color de texto blanco */
+  border: 2px solid white; /* Borde blanco de 2px */
+  border-radius: 10px; /* Bordes redondeados */
+  margin-right: 15px; /* Espacio a la derecha de 5px */
+}
+
+/* Agrega esta clase personalizada */
+.admin-gestion-buttons {
+  display: flex;
+  justify-content:center /* Esto separará los elementos en el espacio disponible */
+}
+
+.logo-text-right {
+  display: flex;
+  justify-content:space-around
+}
+
+.custom-button {
+  
+  background-color: black; /* Color de fondo predeterminado */
+  border: 2px solid white; /* Borde blanco predeterminado */
+  margin: 5px; /* Añade margen alrededor de los botones */
+  transition: background-color 0.3s, border-color 0.3s; /* Agrega transición de color de fondo y borde */
+  color: white; /* Color del texto en los botones */
+  cursor: pointer; /* Cambia el cursor al pasar por encima */
+  
+
+}
+
+.custom-button:hover {
+  background-color:#022513 ; /* Cambia el color de fondo al pasar el mouse */
+  border-color: white; /* Cambia el color del borde al pasar el mouse */
+}
+
+.button-link{
+  text-decoration: none; /* Quita el subrayado de los enlaces */
 }
 

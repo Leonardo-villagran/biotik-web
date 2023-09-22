@@ -2,7 +2,7 @@
 
 ![BiotiK Logo](https://github.com/Leonardo-villagran/biotik-web/blob/main/public/images/logo.png?raw=true)
 
-La aplicación web BiotiK es una plataforma de análisis de datos que ofrece soluciones avanzadas para el procesamiento y análisis de datos biológicos. Este README proporciona información sobre la estructura de la aplicación y cómo ejecutarla localmente.
+La aplicación web BiotiK es una plataforma de análisis de información que ofrece soluciones avanzadas para la recolección y procesamiento de datos. Este README proporciona información sobre la estructura de la aplicación y cómo ejecutarla localmente.
 
 ## Contenido
 
@@ -26,7 +26,7 @@ Para ejecutar la aplicación de manera local, sigue estos pasos:
 1. Clona este repositorio en tu máquina local:
 
    ```shell
-   git clone https://github.com/tu-usuario/biotik-web-app.git
+   git clone https://github.com/Leonardo-villagran/biotik-web
    ```
 
 2. Navega al directorio del proyecto:
