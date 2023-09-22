@@ -1,5 +1,5 @@
 # Dockerfile para el frontend
-FROM node:latest
+FROM node:20.2.0-bullseye-slim
 # Crear y establecer el directorio de trabajo
 WORKDIR /app
 
