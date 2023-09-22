@@ -3,6 +3,9 @@ FROM node:lts-bookworm-slim
 # Crear y establecer el directorio de trabajo
 WORKDIR /app
 
+# Instalar la última versión de npm globalmente
+RUN npm install -g npm@latest
+
 # Copiar los archivos necesarios y el package.json
 COPY package*.json ./
 
