@@ -1,5 +1,5 @@
 # Dockerfile para el frontend
-FROM node:lts-bookworm-slim
+FROM node:latest
 # Crear y establecer el directorio de trabajo
 WORKDIR /app
 
